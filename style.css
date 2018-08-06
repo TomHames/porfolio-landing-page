@@ -1,0 +1,299 @@
+body {
+  font-family: lobster;
+  margin: 0px;
+}
+.pageOne {
+  background: url("https://images.unsplash.com/photo-1450849608880-6f787542c88a?ixlib=rb-0.3.5&s=11081388185897fbb538648fceb61087&auto=format&fit=crop&w=1266&q=80");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 900px;
+}
+
+.pageTwo {
+  background: url("https://images.unsplash.com/photo-1484417894907-623942c8ee29?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=3f1d38bbdda690e28a81673c06325075&auto=format&fit=crop&w=1189&q=80");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 1100px;
+}
+
+.pageFour {
+  background: url("https://images.unsplash.com/photo-1515054562254-30a1b0ebe227?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=c99521d581e0ffe6d032ded73d3f7bbe&auto=format&fit=crop&w=1267&q=80");
+  background-size: cover;
+  height: 880px;
+  margin-top: 0%;
+}
+
+/*Nav Menu*/
+.nav {
+  top: 20px;
+  position: relative;
+  text-align: center; 
+}
+
+.nav li {
+  display: inline-block;
+  margin-top: 2%;
+
+}
+
+li {
+  padding: 8px;
+  background-color: rgba(0,0,0, .5);
+  border-radius: 40px;
+  border: 2px solid white;
+ }
+
+li a {
+  color: white;
+  font-size: 30px;
+  text-decoration: none;
+}
+li a:hover {
+  color: rgb(D, D, 128);
+  text-decoration: none;
+}
+
+/*Main Section*/
+
+.mainsection {
+  position: relative;
+  text-align: center;
+  color: rgb(255,255,255);
+  background-color: rgba(0,0,0, .5);
+  font-size: 25px;
+  padding: 4px;
+  margin-right: auto;
+  margin-left: auto;
+  top: 40px;
+  border: 10px solid white;
+  border-radius: 40px;
+  padding-top: 4%;
+}
+
+#profile-pic {
+  height: 250px;
+  margin: 1% 0 -5% 0;
+  border-radius: 10%;
+  opacity: .9;
+}
+.media-buttons {
+  font-size: 50px;
+  margin-top: 5%;
+  padding-bottom: 10%;
+}
+.btn-1 {
+  font-size: 30px;
+  background-color: black;
+  border: 2px solid white;
+}
+
+.btn-2 {
+  font-size: 30px;
+  background-color: black;
+  border: 2px solid white;
+}
+
+.btn-3 {
+  font-size: 30px;
+  background-color: black;
+  border: 2px solid white;
+}
+.btn-4 {
+  font-size: 30px;
+  background-color: black;
+  border: 2px solid white;
+}
+.fa-twitter {
+  padding-right: 5%;
+}
+
+.fa-linkedin {
+  padding-right: 5%;
+  color: white;
+}
+
+.fa-github {
+  padding-right: 5%;
+  color: white;
+}
+.fa-reddit {
+  padding-right: 5%;
+  color: #FF4500;
+}
+
+/* About Section */
+
+.aboutsection {
+  color: rgb(248, 248, 255);
+  text-align: center;
+  font-size: 2.2em;
+  margin-top: 10%;
+  margin-left: 10%;
+}
+.contact-me {
+  text-align: center;
+  font-size: 3.5em;
+  padding-top: 2%;
+}
+.contact-paragraph {
+  margin-left: 10%;
+  margin-top: 4%;
+  font-size: 1.5em;
+}
+
+h1 {
+  font-size: 1.5em;
+  margin-left: auto;
+  margin-right: auto;
+}
+h4 {
+  font-size: 0.9em;
+  padding: 5%;
+}
+.javascript {
+  position: relative;
+  border-radius: 5%;
+  left: 12px;
+  down: 2px;
+}
+
+.form {
+  position: relative;
+  margin-top: 20%;
+}
+.contacttext {
+  font-size: 0.82em;
+  font-family: calibri;
+}
+
+input[type="text"],
+#textarea {
+  border: 2px solid black;
+  border-radius: 4px;
+  font-family: calibri;
+  font-size: 1.2em;
+  width: 25%;
+}
+.question {
+  padding-bottom: 100px;
+}
+
+form {
+  postition: absolute;
+  margin-top: 10%;
+  margin-left: 10%;
+}
+.submit {
+  font-size: 1.2em;
+  font-family: calibri;
+  width: 25%;
+}
+.footer {
+  font-family: calibri;
+  position: absolute;
+  width: 100%;
+  background-color: #d3d3d3;
+  color: black;
+  text-align: center;
+  font-size: 1.4em;
+  margin-top: 72px;
+  padding: 1.1em;
+}
+
+/* Media Queries */
+
+/* Large Screens */
+
+@media screen and (min-width: 1200px) {
+  
+  .mainsection {
+    width: 60%;
+  }
+  
+  .pageFour {
+    height: 970px;
+  }
+  
+}
+
+
+/* Tablets */ 
+
+@media screen and (max-width: 768px) {
+  .pageOne,
+  .pageFour {
+    height: 650px;
+  }
+
+  .pageTwo {
+    height: 500px;
+  }
+
+  .mainsection {
+    border: 5px solid white;
+    font-size: 1.2em;
+  }
+  
+  .media-buttons {
+    font-size: 30px;
+  }
+  
+  #h4 {
+    font-size: 1.5em;
+  }
+  
+  .aboutsection {
+    font-size: 1.8em;
+    margin: auto;
+    padding: 2em;
+  }
+
+  .contacttext {
+    display: none;
+  }
+
+  .form {
+    position: relative;
+    margin-top: 200px;
+  }
+}
+
+/* Phones */
+
+@media screen and (max-width: 600px) {
+
+  .pageOne,
+   .pageFour {
+    height: 650px;
+  }
+  
+ .pageTwo {
+    height: 550px;
+  }
+  
+   #h4 {
+    font-size: 1.2em;
+  }  
+
+  .aboutsection {
+    font-size: 1.4rem;
+  }
+  
+  .contacttext {
+    display: none;
+  }
+
+  .form {
+    position: relative;
+    margin-top: 200px;
+    width: 40em;
+  } 
+  
+  .footer {
+    padding: 0;
+  }
+}
